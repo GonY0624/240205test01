@@ -20,7 +20,7 @@ public class Application14 {
         Scanner sc = new Scanner(System.in);
         double weight = sc.nextDouble();
 
-        System.out.print("당신의 키를 입력하세요 : ");
+        System.out.print("당신의 키를(m단위로) 입력하세요 : ");
 
         double height = sc.nextDouble();
 
@@ -34,11 +34,11 @@ public class Application14 {
             System.out.println("당신은 정상체중입니다. ");
 
         } else if (BMI >= 25 && BMI < 30) {
-            System.out.println("당신은 과제중입니다. ");
+            System.out.println("당신은 과체중입니다. ");
 
         } else {
             System.out.println("당신은 비만입니다. ");
+
         }
     }
-
 }
